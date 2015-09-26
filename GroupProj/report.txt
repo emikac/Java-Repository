@@ -1,0 +1,18 @@
+DESIGN ASSUMPTIONS:
+	factory design pattern (C-Class, E-Class, S-Class)
+	decorator design pattern (HeatedSeats, GPS, WiFi)
+	singleton design pattern for database connection
+	database connection
+	JSP pages (login, createAccount, orderCar, orderFormConfirmation)
+	servlet (buildCar, login)
+	
+GROUP CONTRIBUTIONS:
+	Erik Mikac: created JSP pages, database connection, essentially user interface
+	Adam Miyashiro: created servlets, design patterns
+	Dylan Lawson: created factory and decorator classes for design patterns and Report
+	Samy Ramsey: contributed in decorator classes, troubleshooting
+
+DIFFICULTIES FACED:
+	figuring out how JSP and servlets worked and how to effectively use them together
+	figuring out how to get java classes to function with JSP and servlets
+	moving data from servlet to JSP, how to display data on JSP page
